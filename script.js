@@ -10,16 +10,16 @@ const setTheme = (mode) => {
 
     switch(mode) {
         case 'light':
-            themeStyle.href = '.styles/default.css';
+            themeStyle.href = './styles/default.css';
             break;
         case 'purple':
-            themeStyle.href = '.styles/dark.css';
+            themeStyle.href = './styles/dark.css';
             break;
         case 'blue':
-            themeStyle.href = '.styles/blue.css';
+            themeStyle.href = './styles/blue.css';
             break;
         case 'green':
-            themeStyle.href = '.styles/green.css';
+            themeStyle.href = './styles/green.css';
             break;
     }
 
