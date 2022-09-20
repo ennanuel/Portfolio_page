@@ -1,4 +1,5 @@
 let themeDots = document.getElementsByClassName("theme-dot");
+let posts = document.getElementsByClassName("post");
 
 let theme = localStorage.getItem('theme');
 
@@ -9,16 +10,16 @@ const setTheme = (mode) => {
 
     switch(mode) {
         case 'light':
-            themeStyle.href = 'default.css';
+            themeStyle.href = '.styles/default.css';
             break;
         case 'purple':
-            themeStyle.href = 'dark.css';
+            themeStyle.href = '.styles/dark.css';
             break;
         case 'blue':
-            themeStyle.href = 'blue.css';
+            themeStyle.href = '.styles/blue.css';
             break;
         case 'green':
-            themeStyle.href = 'green.css';
+            themeStyle.href = '.styles/green.css';
             break;
     }
 
